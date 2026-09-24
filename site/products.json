@@ -1,0 +1,245 @@
+[
+  {
+    "id": "E01",
+    "title": "Moonlit Gathering",
+    "category": "Eid 2026",
+    "image": {
+      "thumbnail": "/assets/thumbs/E01.webp",
+      "full": "/assets/full/E01.webp"
+    }
+  },
+  {
+    "id": "E02",
+    "title": "Eid Garden",
+    "category": "Eid 2026",
+    "image": {
+      "thumbnail": "/assets/thumbs/E02.webp",
+      "full": "/assets/full/E02.webp"
+    }
+  },
+  {
+    "id": "E03",
+    "title": "Golden Celebration",
+    "category": "Eid 2026",
+    "image": {
+      "thumbnail": "/assets/thumbs/E03.webp",
+      "full": "/assets/full/E03.webp"
+    }
+  },
+  {
+    "id": "E04",
+    "title": "Sweet Traditions",
+    "category": "Eid 2026",
+    "image": {
+      "thumbnail": "/assets/thumbs/E04.webp",
+      "full": "/assets/full/E04.webp"
+    }
+  },
+  {
+    "id": "E05",
+    "title": "City of Light",
+    "category": "Eid 2026",
+    "image": {
+      "thumbnail": "/assets/thumbs/E05.webp",
+      "full": "/assets/full/E05.webp"
+    }
+  },
+  {
+    "id": "A01",
+    "title": "Kaaba Sharif",
+    "category": "Sacred Architecture",
+    "image": {
+      "thumbnail": "/assets/thumbs/A01.webp",
+      "full": "/assets/full/A01.webp"
+    }
+  },
+  {
+    "id": "A02",
+    "title": "Masjid al-Haram",
+    "category": "Sacred Architecture",
+    "image": {
+      "thumbnail": "/assets/thumbs/A02.webp",
+      "full": "/assets/full/A02.webp"
+    }
+  },
+  {
+    "id": "A03",
+    "title": "Al-Aqsa — Qibli Mosque",
+    "category": "Sacred Architecture",
+    "image": {
+      "thumbnail": "/assets/thumbs/A03.webp",
+      "full": "/assets/full/A03.webp"
+    }
+  },
+  {
+    "id": "A04",
+    "title": "Makkah",
+    "category": "Sacred Architecture",
+    "image": {
+      "thumbnail": "/assets/thumbs/A04.webp",
+      "full": "/assets/full/A04.webp"
+    }
+  },
+  {
+    "id": "A05",
+    "title": "Al-Masjid an-Nabawi",
+    "category": "Sacred Architecture",
+    "image": {
+      "thumbnail": "/assets/thumbs/A05.webp",
+      "full": "/assets/full/A05.webp"
+    }
+  },
+  {
+    "id": "A06",
+    "title": "Dome of the Rock",
+    "category": "Sacred Architecture",
+    "image": {
+      "thumbnail": "/assets/thumbs/A06.webp",
+      "full": "/assets/full/A06.webp"
+    }
+  },
+  {
+    "id": "A07",
+    "title": "Sultan Ahmed Mosque",
+    "category": "Sacred Architecture",
+    "image": {
+      "thumbnail": "/assets/thumbs/A07.webp",
+      "full": "/assets/full/A07.webp"
+    }
+  },
+  {
+    "id": "A08",
+    "title": "Sheikh Zayed Grand Mosque",
+    "category": "Sacred Architecture",
+    "image": {
+      "thumbnail": "/assets/thumbs/A08.webp",
+      "full": "/assets/full/A08.webp"
+    }
+  },
+  {
+    "id": "C01",
+    "title": "Alhamdulillah",
+    "category": "Calligraphy",
+    "image": {
+      "thumbnail": "/assets/thumbs/C01.webp",
+      "full": "/assets/full/C01.webp"
+    }
+  },
+  {
+    "id": "C02",
+    "title": "Surah Al-Fatihah",
+    "category": "Calligraphy",
+    "image": {
+      "thumbnail": "/assets/thumbs/C02.webp",
+      "full": "/assets/full/C02.webp"
+    }
+  },
+  {
+    "id": "C03",
+    "title": "Surah Al-Ikhlas",
+    "category": "Calligraphy",
+    "image": {
+      "thumbnail": "/assets/thumbs/C03.webp",
+      "full": "/assets/full/C03.webp"
+    }
+  },
+  {
+    "id": "C04",
+    "title": "Subhan Allah",
+    "category": "Calligraphy",
+    "image": {
+      "thumbnail": "/assets/thumbs/C04.webp",
+      "full": "/assets/full/C04.webp"
+    }
+  },
+  {
+    "id": "C05",
+    "title": "Dua Qunoot — opening excerpt",
+    "category": "Calligraphy",
+    "image": {
+      "thumbnail": "/assets/thumbs/C05.webp",
+      "full": "/assets/full/C05.webp"
+    }
+  },
+  {
+    "id": "C06",
+    "title": "Bismillah",
+    "category": "Calligraphy",
+    "image": {
+      "thumbnail": "/assets/thumbs/C06.webp",
+      "full": "/assets/full/C06.webp"
+    }
+  },
+  {
+    "id": "C07",
+    "title": "Allahu Akbar",
+    "category": "Calligraphy",
+    "image": {
+      "thumbnail": "/assets/thumbs/C07.webp",
+      "full": "/assets/full/C07.webp"
+    }
+  },
+  {
+    "id": "C08",
+    "title": "La ilaha illa Allah",
+    "category": "Calligraphy",
+    "image": {
+      "thumbnail": "/assets/thumbs/C08.webp",
+      "full": "/assets/full/C08.webp"
+    }
+  },
+  {
+    "id": "Q01",
+    "title": "Ease",
+    "category": "Qur’an Reflection",
+    "image": {
+      "thumbnail": "/assets/thumbs/Q01.webp",
+      "full": "/assets/full/Q01.webp"
+    }
+  },
+  {
+    "id": "Q02",
+    "title": "Tranquillity",
+    "category": "Qur’an Reflection",
+    "image": {
+      "thumbnail": "/assets/thumbs/Q02.webp",
+      "full": "/assets/full/Q02.webp"
+    }
+  },
+  {
+    "id": "Q03",
+    "title": "Mercy",
+    "category": "Qur’an Reflection",
+    "image": {
+      "thumbnail": "/assets/thumbs/Q03.webp",
+      "full": "/assets/full/Q03.webp"
+    }
+  },
+  {
+    "id": "Q04",
+    "title": "Remembrance",
+    "category": "Qur’an Reflection",
+    "image": {
+      "thumbnail": "/assets/thumbs/Q04.webp",
+      "full": "/assets/full/Q04.webp"
+    }
+  },
+  {
+    "id": "Q05",
+    "title": "Trust",
+    "category": "Qur’an Reflection",
+    "image": {
+      "thumbnail": "/assets/thumbs/Q05.webp",
+      "full": "/assets/full/Q05.webp"
+    }
+  },
+  {
+    "id": "Q06",
+    "title": "Courage",
+    "category": "Qur’an Reflection",
+    "image": {
+      "thumbnail": "/assets/thumbs/Q06.webp",
+      "full": "/assets/full/Q06.webp"
+    }
+  }
+]

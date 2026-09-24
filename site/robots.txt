@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fortheummah.pages.dev/sitemap.xml
