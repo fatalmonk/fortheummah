@@ -24,6 +24,7 @@ check({category: sum(p["category"] == category for p in products) for category i
 check((SITE / "index.html").is_file(), "missing site index")
 check((SITE / "404.html").is_file(), "missing 404 page")
 check((SITE / "_headers").is_file(), "missing Pages headers")
+check("default-src 'self'" in (SITE / "_headers").read_text(), "invalid or missing Content Security Policy")
 check((SITE / "robots.txt").is_file(), "missing robots.txt")
 check((SITE / "sitemap.xml").is_file(), "missing sitemap.xml")
 check(not (SITE / "mockups").exists() and not (SITE / "design-boards").exists(), "internal sources copied into deployment root")

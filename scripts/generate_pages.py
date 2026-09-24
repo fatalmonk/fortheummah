@@ -7,7 +7,6 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
 products = json.loads((SITE / "products.json").read_text())
-manifest = {item["id"]: item for item in json.loads((ROOT / "mockups" / "manifest.json").read_text())}
 
 catalogue_cards = []
 for product in products:
