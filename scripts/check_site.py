@@ -64,11 +64,11 @@ check("Original artwork files were preserved unchanged" in (SITE / "product" / "
 home = (SITE / "index.html").read_text()
 check("orders are not yet being accepted" in home, "home page does not state order acceptance is pending")
 check("৳80" in home and "৳120" in home, "approved delivery fees missing from public FAQ")
-check("14+" in home and "owner-proposed age guidance is 6+, pending supplier/sample confirmation" in home, "mockup age-label disclosure missing from the home page")
-check("14+" in (SITE / "product" / "A01" / "index.html").read_text(), "mockup age-label disclosure missing from product pages")
+check("Age guidance is 14+" in home and "Mockup sheets may show" not in home, "approved age guidance or mockup disclosure missing from the home page")
+check("age suitability 14+" in (SITE / "product" / "A01" / "index.html").read_text(), "approved age guidance missing from product pages")
 check("InStock" not in "".join((SITE / "product" / i / "index.html").read_text() for i in ids), "product structured data claims inventory")
 policies = (SITE / "policies.html").read_text()
-check("not approved age guidance" in policies, "policy page does not explain the mockup age label")
+check("Age guidance is 14+" in policies and "not approved age guidance" not in policies, "policy page age guidance is outdated")
 for required_policy in ["50% deposit", "3 days", "7 business days", "return-courier charges", "not yet being accepted"]:
     check(required_policy in policies, f"customer policies omit {required_policy}")
 

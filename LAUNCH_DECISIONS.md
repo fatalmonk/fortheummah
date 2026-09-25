@@ -37,7 +37,7 @@ This worksheet records the owner-approved launch decisions for the current store
 - **500-piece portrait:** 38 × 52 cm
 - **Material and finish:** Cardboard with glossy finish.
 - **Packaging:** Printed cardboard retail puzzle box, with the puzzle artwork/design printed on the exterior.
-- **Age suitability:** 6+
+- **Age suitability:** 14+ (owner-approved; confirm final labeling with supplier/sample)
 - **Evidence or supplier confirmation:** **TBD — supplier/sample confirmation required before production.** Material, dimensions, piece counts, packaging, manufacturing feasibility, and final physical specification must be confirmed.
 - **Physical sample gate:** A production sample must be inspected and approved before commercial orders are accepted, covering print quality, colour, puzzle cut/fit, piece count, dimensions, glossy finish, retail-box quality, and overall manufacturing quality.
 
@@ -151,7 +151,7 @@ Known content for review: **C05** contains an opening Dua Qunoot excerpt. **A03*
 - E01–E05 are to be presented as **Eid 2027 / 1448 AH** designs.
 - 500-piece puzzles: **৳3,000**; 1,000-piece puzzles: **৳4,000**.
 - Optional wooden frame kit: **৳3,000**; frame is not included with the puzzle.
-- Cardboard puzzle with glossy finish; printed cardboard retail puzzle box; age suitability **6+**.
+- Cardboard puzzle with glossy finish; printed cardboard retail puzzle box; age suitability **14+** (owner-approved; confirm final labeling with supplier/sample).
 - Nationwide Bangladesh delivery: **৳80 Chattogram / ৳120 rest of Bangladesh**; transit estimate after ready-for-dispatch: **1–2 / 2–4 business days** respectively.
 - Payment: bKash and bank transfer; 50% deposit / 50% before delivery; payment proof required.
 - bKash account: **01731944544**; payment details are sent privately via WhatsApp.
