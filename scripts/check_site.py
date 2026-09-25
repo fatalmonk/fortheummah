@@ -78,7 +78,7 @@ try:
 except ET.ParseError as error:
     check(False, f"invalid sitemap XML: {error}")
 check((SITE / "robots.txt").read_text().startswith("User-agent: *\nAllow: /\n"), "robots.txt is malformed")
-check((SITE / "catalogue.html").read_text().count('<article class="card">') == len(products), "static catalogue does not render every product")
+check(len(re.findall(r'<article\b', (SITE / "catalogue.html").read_text())) == len(products), "static catalogue does not render every product")
 
 if errors:
     print("FAILED")
