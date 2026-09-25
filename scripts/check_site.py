@@ -23,6 +23,7 @@ check({category: sum(p["category"] == category for p in products) for category i
 }, "unexpected product category counts")
 check((SITE / "index.html").is_file(), "missing site index")
 check((SITE / "404.html").is_file(), "missing 404 page")
+check((SITE / "policies.html").is_file(), "missing customer policy page")
 check((SITE / "_headers").is_file(), "missing Pages headers")
 check("default-src 'self'" in (SITE / "_headers").read_text(), "invalid or missing Content Security Policy")
 check((SITE / "robots.txt").is_file(), "missing robots.txt")
@@ -58,11 +59,22 @@ check("opening excerpt" in (SITE / "product" / "C05" / "index.html").read_text()
 check("Qibli prayer hall" in (SITE / "product" / "A03" / "index.html").read_text(), "Al-Aqsa distinction missing")
 check("Dome of the Rock" in (SITE / "product" / "A06" / "index.html").read_text(), "Dome of the Rock distinction missing")
 check("Eid 2027" in (SITE / "product" / "E01" / "index.html").read_text(), "Eid year disclosure missing")
-check("seasonal relevance" in (SITE / "product" / "E01" / "index.html").read_text(), "Eid seasonal relevance disclosure missing")
+check("Original artwork files were preserved unchanged" in (SITE / "product" / "E01" / "index.html").read_text(), "Eid original-artwork disclosure missing")
+
+home = (SITE / "index.html").read_text()
+check("orders are not yet being accepted" in home, "home page does not state order acceptance is pending")
+check("৳80" in home and "৳120" in home, "approved delivery fees missing from public FAQ")
+check("14+" in home and "owner-proposed age guidance is 6+, pending supplier/sample confirmation" in home, "mockup age-label disclosure missing from the home page")
+check("14+" in (SITE / "product" / "A01" / "index.html").read_text(), "mockup age-label disclosure missing from product pages")
+check("InStock" not in "".join((SITE / "product" / i / "index.html").read_text() for i in ids), "product structured data claims inventory")
+policies = (SITE / "policies.html").read_text()
+check("not approved age guidance" in policies, "policy page does not explain the mockup age label")
+for required_policy in ["50% deposit", "3 days", "7 business days", "return-courier charges", "not yet being accepted"]:
+    check(required_policy in policies, f"customer policies omit {required_policy}")
 
 try:
     sitemap = ET.parse(SITE / "sitemap.xml").getroot()
-    check(len(sitemap) == len(products) + 2, "sitemap URL count does not match the catalogue")
+    check(len(sitemap) == len(products) + 3, "sitemap URL count does not match the catalogue and policy page")
 except ET.ParseError as error:
     check(False, f"invalid sitemap XML: {error}")
 check((SITE / "robots.txt").read_text().startswith("User-agent: *\nAllow: /\n"), "robots.txt is malformed")
