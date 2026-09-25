@@ -69,7 +69,7 @@ function render() {
     price.className = 'price';
     price.append(document.createTextNode('৳3,000–৳4,000'));
     const note = document.createElement('small');
-    note.textContent = 'Indicative range · confirm before ordering';
+    note.textContent = '500 or 1,000 pieces · frame +৳3,000';
     price.append(note);
     const button = document.createElement('button');
     button.type = 'button';
