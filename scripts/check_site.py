@@ -19,7 +19,7 @@ def check(condition, message):
 check(len(products) == 27, f"expected 27 products, got {len(products)}")
 check(len(ids) == len(set(ids)), "product IDs are not unique")
 check({category: sum(p["category"] == category for p in products) for category in {p["category"] for p in products}} == {
-    "Eid 2026": 5, "Sacred Architecture": 8, "Calligraphy": 8, "Qur’an Reflection": 6
+    "Eid 2027 / 1448 AH": 5, "Sacred Architecture": 8, "Calligraphy": 8, "Qur’an Reflection": 6
 }, "unexpected product category counts")
 check((SITE / "index.html").is_file(), "missing site index")
 check((SITE / "404.html").is_file(), "missing 404 page")
@@ -57,7 +57,7 @@ check([(x["id"], x["title"], x["category"]) for x in products] ==
 check("opening excerpt" in (SITE / "product" / "C05" / "index.html").read_text(), "Dua Qunoot excerpt disclosure missing")
 check("Qibli prayer hall" in (SITE / "product" / "A03" / "index.html").read_text(), "Al-Aqsa distinction missing")
 check("Dome of the Rock" in (SITE / "product" / "A06" / "index.html").read_text(), "Dome of the Rock distinction missing")
-check("Eid 2026" in (SITE / "product" / "E01" / "index.html").read_text(), "Eid year disclosure missing")
+check("Eid 2027" in (SITE / "product" / "E01" / "index.html").read_text(), "Eid year disclosure missing")
 check("seasonal relevance" in (SITE / "product" / "E01" / "index.html").read_text(), "Eid seasonal relevance disclosure missing")
 
 try:
