@@ -1,0 +1,186 @@
+{
+  "routes": [
+    {
+      "width": 1440,
+      "status": 200
+    },
+    {
+      "width": 1024,
+      "status": 200
+    },
+    {
+      "width": 768,
+      "status": 200
+    },
+    {
+      "width": 390,
+      "status": 200
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "hero": {
+        "top": 90,
+        "bottom": 703,
+        "width": 1296,
+        "height": 613
+      },
+      "collection": {
+        "top": 794,
+        "bottom": 5901,
+        "width": 1296,
+        "height": 5107
+      },
+      "controls": {
+        "top": 1059,
+        "bottom": 1135,
+        "width": 1296,
+        "height": 76
+      },
+      "firstCard": {
+        "top": 1161,
+        "bottom": 1655,
+        "width": 413,
+        "height": 495
+      },
+      "ordering": {
+        "top": 5901,
+        "bottom": 6581,
+        "width": 1296,
+        "height": 680
+      },
+      "cardCount": 27,
+      "minCardButtonHeight": 46
+    },
+    {
+      "width": 1024,
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "hero": {
+        "top": 90,
+        "bottom": 675,
+        "width": 922,
+        "height": 585
+      },
+      "collection": {
+        "top": 789,
+        "bottom": 8754,
+        "width": 922,
+        "height": 7966
+      },
+      "controls": {
+        "top": 1075,
+        "bottom": 1212,
+        "width": 922,
+        "height": 138
+      },
+      "firstCard": {
+        "top": 1238,
+        "bottom": 1752,
+        "width": 451,
+        "height": 513
+      },
+      "ordering": {
+        "top": 8754,
+        "bottom": 9512,
+        "width": 922,
+        "height": 757
+      },
+      "cardCount": 27,
+      "minCardButtonHeight": 46
+    },
+    {
+      "width": 768,
+      "viewport": 768,
+      "scrollWidth": 768,
+      "hero": {
+        "top": 90,
+        "bottom": 668,
+        "width": 691,
+        "height": 578
+      },
+      "collection": {
+        "top": 782,
+        "bottom": 7967,
+        "width": 691,
+        "height": 7185
+      },
+      "controls": {
+        "top": 1057,
+        "bottom": 1195,
+        "width": 691,
+        "height": 138
+      },
+      "firstCard": {
+        "top": 1221,
+        "bottom": 1678,
+        "width": 337,
+        "height": 456
+      },
+      "ordering": {
+        "top": 7967,
+        "bottom": 8794,
+        "width": 691,
+        "height": 827
+      },
+      "cardCount": 27,
+      "minCardButtonHeight": 46
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "scrollWidth": 390,
+      "hero": {
+        "top": 80,
+        "bottom": 874,
+        "width": 351,
+        "height": 794
+      },
+      "collection": {
+        "top": 1035,
+        "bottom": 14767,
+        "width": 351,
+        "height": 13733
+      },
+      "controls": {
+        "top": 1416,
+        "bottom": 1651,
+        "width": 351,
+        "height": 236
+      },
+      "firstCard": {
+        "top": 1677,
+        "bottom": 2141,
+        "width": 351,
+        "height": 463
+      },
+      "ordering": {
+        "top": 14767,
+        "bottom": 15897,
+        "width": 351,
+        "height": 1130
+      },
+      "cardCount": 27,
+      "minCardButtonHeight": 46
+    }
+  ],
+  "states": {
+    "longName": {
+      "query": "Dua Qunoot — opening excerpt",
+      "count": "1 design"
+    },
+    "filter": {
+      "count": "8 designs",
+      "cards": 8
+    },
+    "dialogKeyboard": "pass",
+    "reducedMotion": "1e-05s",
+    "mobileMenu": "pass",
+    "noJS": "pass",
+    "failedCatalogue": "pass"
+  },
+  "errors": []
+}
