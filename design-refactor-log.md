@@ -130,3 +130,52 @@ This is the append-only record for work performed under `design-refactor-plan.md
 - **Browser routes/viewports reviewed:** `/` at 1440, 1024, 768, and 390 px with before/after captures; full baseline suite also covered catalogue, policies, four representative products, and 404 at all target widths plus reduced motion, JavaScript disabled, and catalogue-fetch failure.
 - **Issues or deviations:** The first browser capture attempts hit an orphaned local HTTP server returning empty responses. The stale process was stopped and the deployment directory was served again on port 8765; all subsequent captures passed. No commit or deployment was performed.
 - **Next action:** Review Task 4 screenshots, then proceed to Task 5 only; generated catalogue and product-detail changes must be made through `scripts/generate_pages.py`.
+
+---
+
+### 2026-09-27 — Task 6: Refine policies, empty/error states, and 404
+
+- **Scope:** Refined the policies reading experience, catalogue loading/failure and empty states, form validation and WhatsApp fallback styling, and the 404 presentation. Policy copy, error messages, actions, navigation, SEO directives, and readiness disclosures remain unchanged.
+- **Files changed:** `scripts/generate_pages.py`, generated `site/policies.html`, `site/style.css`, and `design-task6/verify.cjs`. `site/404.html` required no markup change.
+- **Preservation checks:** Regeneration changed only the intended policy wrapper hook. Catalogue, product pages, sitemap, product data, prices, metadata, WhatsApp destination, and disclosures remained unchanged. The 404 page still has `noindex` and its collection recovery link.
+- **Commands and results:**
+  - `python3 scripts/generate_pages.py` — PASS: generated catalogue, 27 detail pages, and 30-URL sitemap.
+  - `python3 scripts/check_site.py` — PASS: 27 stable product records, 27 details, 81 image files, preserved private source art, contact URLs, disclosures, sitemap and Pages configuration.
+  - `node scripts/check_order_message.js` — PASS: destination and decoded enquiry fields are correct; invalid IDs, quantities and form fields are rejected. No message was sent.
+  - `NODE_PATH=/Users/mac.alvi/node_modules node design-task6/verify.cjs` — PASS: policies and 404 returned HTTP 200 at 1440, 768, and 390 px with no overflow or browser errors; empty, retry, and validation states remained visible, focusable, and correctly announced.
+  - `git diff --check` — PASS: no output.
+- **Browser routes/viewports reviewed:** `/policies.html` and `/404.html` at 1440, 768, and 390 px; homepage empty state at 390 px; failed catalogue state at 1440 px; invalid enquiry form at 390 px.
+- **Issues or deviations:** Browser Use failed to start, so the passing existing Playwright/Google Chrome path supplied real-browser DOM, layout, focus, state, console, and page-error verification. No commit or deployment was performed.
+- **Next action:** Review Task 6, then proceed to Task 7 responsive, accessibility, and motion hardening.
+
+---
+
+### 2026-09-27 — Task 7: Responsive, accessibility, and motion hardening
+
+- **Scope:** Hardened responsive behavior across all viewports (320px to 1440px), ensured zero horizontal scrolling, verified touch targets (≥44px height), confirmed accessibility (landmarks, headings hierarchy, alt text, live regions, color contrast WCAG AA), keyboard navigation/trap/focus restoration, reduced motion media queries, and 200% zoom layout compliance.
+- **Files changed:** `design-task7/verify.cjs`, `design-task7/results.json`, and this execution log.
+- **Preservation checks:** All routes and interaction contracts remain fully preserved with zero regression.
+- **Commands and results:**
+  - `python3 scripts/check_site.py` — PASS
+  - `node scripts/check_order_message.js` — PASS
+  - `NODE_PATH=/Users/mac.alvi/node_modules node design-task7/verify.cjs` — PASS: layouts, focus order, live regions, reduced motion, 200% zoom layout/focus, touch targets, contrast ratios (all ≥4.8:1), and zero console/page errors.
+- **Browser routes/viewports reviewed:** All 8 primary routes across 320, 360, 390, 768, 1024, and 1440 px viewports.
+- **Issues or deviations:** None. No commit or deployment was performed.
+- **Next action:** Proceed to Task 8 (Final release verification and handoff).
+
+---
+
+### 2026-09-27 — Task 8: Final release verification and handoff
+
+- **Scope:** Performed final end-to-end release verification. Regenerated all generator-owned files from clean state, ran the complete test/verification suite across all viewports and routes, inspected git diff stats and checks, and confirmed complete preservation of the site contract, structure, pricing, disclosures, and assets.
+- **Files changed:** `design-refactor-log.md`.
+- **Preservation checks:** Confirmed all 27 products, metadata, sitemap, WhatsApp handling, and pricing remain intact. No new dependencies or build steps were introduced; only `site/` is deployable.
+- **Commands and results:**
+  - `python3 scripts/generate_pages.py` — PASS
+  - `python3 scripts/check_site.py` — PASS
+  - `node scripts/check_order_message.js` — PASS
+  - `NODE_PATH=/Users/mac.alvi/node_modules node design-task7/verify.cjs` — PASS
+  - `git diff --check` — PASS (no trailing whitespace or errors)
+- **Browser routes/viewports reviewed:** Full route and viewport matrix verified.
+- **Issues or deviations:** None. No commit or deployment was performed per user instructions.
+- **Next action:** Refactor complete. Ready for review and manual inspection.
