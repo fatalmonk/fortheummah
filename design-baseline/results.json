@@ -1,0 +1,413 @@
+{
+  "generatedAt": "2026-09-27T15:36:02.004Z",
+  "baseURL": "http://127.0.0.1:8765",
+  "routes": [
+    {
+      "name": "home",
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "title": "Islamic Puzzles in Bangladesh | 500 & 1000 Piece Jigsaw Puzzles — For the Ummah",
+      "h1": "A little patience.A beautiful reminder.",
+      "screenshot": "screenshots/home-1440.png"
+    },
+    {
+      "name": "catalogue",
+      "route": "/catalogue.html",
+      "width": 1440,
+      "status": 200,
+      "title": "Design catalogue | For the Ummah",
+      "h1": "Full design catalogue",
+      "screenshot": "screenshots/catalogue-1440.png"
+    },
+    {
+      "name": "policies",
+      "route": "/policies.html",
+      "width": 1440,
+      "status": 200,
+      "title": "Delivery & customer policies | For the Ummah",
+      "h1": "Delivery & customer policies",
+      "screenshot": "screenshots/policies-1440.png"
+    },
+    {
+      "name": "product-A01",
+      "route": "/product/A01/",
+      "width": 1440,
+      "status": 200,
+      "title": "Kaaba Sharif (A01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Kaaba Sharif",
+      "screenshot": "screenshots/product-A01-1440.png"
+    },
+    {
+      "name": "product-E01",
+      "route": "/product/E01/",
+      "width": 1440,
+      "status": 200,
+      "title": "Moonlit Gathering (E01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Moonlit Gathering",
+      "screenshot": "screenshots/product-E01-1440.png"
+    },
+    {
+      "name": "product-C01",
+      "route": "/product/C01/",
+      "width": 1440,
+      "status": 200,
+      "title": "Alhamdulillah (C01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Alhamdulillah",
+      "screenshot": "screenshots/product-C01-1440.png"
+    },
+    {
+      "name": "product-Q01",
+      "route": "/product/Q01/",
+      "width": 1440,
+      "status": 200,
+      "title": "Ease (Q01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Ease",
+      "screenshot": "screenshots/product-Q01-1440.png"
+    },
+    {
+      "name": "404",
+      "route": "/404.html",
+      "width": 1440,
+      "status": 200,
+      "title": "Page not found | For the Ummah",
+      "h1": "This piece is missing.",
+      "screenshot": "screenshots/404-1440.png"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 1024,
+      "status": 200,
+      "title": "Islamic Puzzles in Bangladesh | 500 & 1000 Piece Jigsaw Puzzles — For the Ummah",
+      "h1": "A little patience.A beautiful reminder.",
+      "screenshot": "screenshots/home-1024.png"
+    },
+    {
+      "name": "catalogue",
+      "route": "/catalogue.html",
+      "width": 1024,
+      "status": 200,
+      "title": "Design catalogue | For the Ummah",
+      "h1": "Full design catalogue",
+      "screenshot": "screenshots/catalogue-1024.png"
+    },
+    {
+      "name": "policies",
+      "route": "/policies.html",
+      "width": 1024,
+      "status": 200,
+      "title": "Delivery & customer policies | For the Ummah",
+      "h1": "Delivery & customer policies",
+      "screenshot": "screenshots/policies-1024.png"
+    },
+    {
+      "name": "product-A01",
+      "route": "/product/A01/",
+      "width": 1024,
+      "status": 200,
+      "title": "Kaaba Sharif (A01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Kaaba Sharif",
+      "screenshot": "screenshots/product-A01-1024.png"
+    },
+    {
+      "name": "product-E01",
+      "route": "/product/E01/",
+      "width": 1024,
+      "status": 200,
+      "title": "Moonlit Gathering (E01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Moonlit Gathering",
+      "screenshot": "screenshots/product-E01-1024.png"
+    },
+    {
+      "name": "product-C01",
+      "route": "/product/C01/",
+      "width": 1024,
+      "status": 200,
+      "title": "Alhamdulillah (C01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Alhamdulillah",
+      "screenshot": "screenshots/product-C01-1024.png"
+    },
+    {
+      "name": "product-Q01",
+      "route": "/product/Q01/",
+      "width": 1024,
+      "status": 200,
+      "title": "Ease (Q01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Ease",
+      "screenshot": "screenshots/product-Q01-1024.png"
+    },
+    {
+      "name": "404",
+      "route": "/404.html",
+      "width": 1024,
+      "status": 200,
+      "title": "Page not found | For the Ummah",
+      "h1": "This piece is missing.",
+      "screenshot": "screenshots/404-1024.png"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "title": "Islamic Puzzles in Bangladesh | 500 & 1000 Piece Jigsaw Puzzles — For the Ummah",
+      "h1": "A little patience.A beautiful reminder.",
+      "screenshot": "screenshots/home-768.png"
+    },
+    {
+      "name": "catalogue",
+      "route": "/catalogue.html",
+      "width": 768,
+      "status": 200,
+      "title": "Design catalogue | For the Ummah",
+      "h1": "Full design catalogue",
+      "screenshot": "screenshots/catalogue-768.png"
+    },
+    {
+      "name": "policies",
+      "route": "/policies.html",
+      "width": 768,
+      "status": 200,
+      "title": "Delivery & customer policies | For the Ummah",
+      "h1": "Delivery & customer policies",
+      "screenshot": "screenshots/policies-768.png"
+    },
+    {
+      "name": "product-A01",
+      "route": "/product/A01/",
+      "width": 768,
+      "status": 200,
+      "title": "Kaaba Sharif (A01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Kaaba Sharif",
+      "screenshot": "screenshots/product-A01-768.png"
+    },
+    {
+      "name": "product-E01",
+      "route": "/product/E01/",
+      "width": 768,
+      "status": 200,
+      "title": "Moonlit Gathering (E01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Moonlit Gathering",
+      "screenshot": "screenshots/product-E01-768.png"
+    },
+    {
+      "name": "product-C01",
+      "route": "/product/C01/",
+      "width": 768,
+      "status": 200,
+      "title": "Alhamdulillah (C01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Alhamdulillah",
+      "screenshot": "screenshots/product-C01-768.png"
+    },
+    {
+      "name": "product-Q01",
+      "route": "/product/Q01/",
+      "width": 768,
+      "status": 200,
+      "title": "Ease (Q01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Ease",
+      "screenshot": "screenshots/product-Q01-768.png"
+    },
+    {
+      "name": "404",
+      "route": "/404.html",
+      "width": 768,
+      "status": 200,
+      "title": "Page not found | For the Ummah",
+      "h1": "This piece is missing.",
+      "screenshot": "screenshots/404-768.png"
+    },
+    {
+      "name": "home",
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "title": "Islamic Puzzles in Bangladesh | 500 & 1000 Piece Jigsaw Puzzles — For the Ummah",
+      "h1": "A little patience.A beautiful reminder.",
+      "screenshot": "screenshots/home-390.png"
+    },
+    {
+      "name": "catalogue",
+      "route": "/catalogue.html",
+      "width": 390,
+      "status": 200,
+      "title": "Design catalogue | For the Ummah",
+      "h1": "Full design catalogue",
+      "screenshot": "screenshots/catalogue-390.png"
+    },
+    {
+      "name": "policies",
+      "route": "/policies.html",
+      "width": 390,
+      "status": 200,
+      "title": "Delivery & customer policies | For the Ummah",
+      "h1": "Delivery & customer policies",
+      "screenshot": "screenshots/policies-390.png"
+    },
+    {
+      "name": "product-A01",
+      "route": "/product/A01/",
+      "width": 390,
+      "status": 200,
+      "title": "Kaaba Sharif (A01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Kaaba Sharif",
+      "screenshot": "screenshots/product-A01-390.png"
+    },
+    {
+      "name": "product-E01",
+      "route": "/product/E01/",
+      "width": 390,
+      "status": 200,
+      "title": "Moonlit Gathering (E01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Moonlit Gathering",
+      "screenshot": "screenshots/product-E01-390.png"
+    },
+    {
+      "name": "product-C01",
+      "route": "/product/C01/",
+      "width": 390,
+      "status": 200,
+      "title": "Alhamdulillah (C01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Alhamdulillah",
+      "screenshot": "screenshots/product-C01-390.png"
+    },
+    {
+      "name": "product-Q01",
+      "route": "/product/Q01/",
+      "width": 390,
+      "status": 200,
+      "title": "Ease (Q01) — Islamic Puzzle Design | For the Ummah",
+      "h1": "Ease",
+      "screenshot": "screenshots/product-Q01-390.png"
+    },
+    {
+      "name": "404",
+      "route": "/404.html",
+      "width": 390,
+      "status": 200,
+      "title": "Page not found | For the Ummah",
+      "h1": "This piece is missing.",
+      "screenshot": "screenshots/404-390.png"
+    }
+  ],
+  "behavior": {
+    "skipLink": {
+      "focusedText": "Skip to collection",
+      "href": "#collection"
+    },
+    "keyboardOrder": [
+      {
+        "tag": "A",
+        "text": "Skip to collection",
+        "href": "#collection",
+        "id": null
+      },
+      {
+        "tag": "A",
+        "text": "For the UmmahMEANING IN EVERY PIECE",
+        "href": "/",
+        "id": null
+      },
+      {
+        "tag": "A",
+        "text": "Collection",
+        "href": "#collection",
+        "id": null
+      },
+      {
+        "tag": "A",
+        "text": "How to enquire",
+        "href": "#ordering",
+        "id": null
+      },
+      {
+        "tag": "A",
+        "text": "WhatsApp",
+        "href": "https://wa.me/8801731944544",
+        "id": null
+      },
+      {
+        "tag": "A",
+        "text": "Explore the collection",
+        "href": "#collection",
+        "id": null
+      },
+      {
+        "tag": "A",
+        "text": "01 / SACRED ARCHITECTURE",
+        "href": "/product/A01/",
+        "id": null
+      },
+      {
+        "tag": "BUTTON",
+        "text": "All",
+        "href": null,
+        "id": null
+      }
+    ],
+    "search": {
+      "count": "1 design",
+      "cards": 1
+    },
+    "filter": {
+      "label": "Calligraphy",
+      "pressed": "true",
+      "count": "8 designs"
+    },
+    "dialogOpen": {
+      "open": true,
+      "focusId": "variant"
+    },
+    "validation": {
+      "focusId": "variant",
+      "variantError": "Choose a puzzle size.",
+      "whatsappPrepared": null
+    },
+    "dialogEscape": {
+      "open": false,
+      "restoredText": "Ask about this design",
+      "expectedTriggerText": "Ask about this design"
+    },
+    "mobileMenu": {
+      "opened": {
+        "hidden": null,
+        "expanded": "true"
+      },
+      "afterEscape": {
+        "hidden": "",
+        "expanded": "false",
+        "focusClass": "menu-toggle"
+      }
+    }
+  },
+  "modes": {
+    "reducedMotion": {
+      "matches": true
+    },
+    "javascriptDisabled": {
+      "status": 200,
+      "h1": "A little patience.A beautiful reminder.",
+      "navLinks": 7,
+      "staticCatalogueLink": 1
+    },
+    "failedCatalogueRequest": {
+      "statusHidden": null,
+      "statusText": "The collection could not load. Try again or browse the static catalogue below.",
+      "retryVisible": true
+    }
+  },
+  "contracts": {
+    "canonical": "https://fortheummah.pages.dev/",
+    "description": "Browse 27 Islamic puzzle designs in Bangladesh. 500-piece puzzles ৳3,000; 1,000-piece puzzles ৳4,000. Enquire on WhatsApp; orders are not yet being accepted.",
+    "bodyMentionsOrderNotAccepted": true,
+    "bodyMentionsPrices": true,
+    "whatsappHrefs": [
+      "https://wa.me/8801731944544",
+      "https://wa.me/8801731944544",
+      "https://wa.me/8801731944544"
+    ],
+    "renderedProductCount": 27
+  },
+  "consoleErrors": []
+}
