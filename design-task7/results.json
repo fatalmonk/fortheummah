@@ -1,0 +1,1434 @@
+{
+  "layouts": [
+    {
+      "width": 320,
+      "route": "/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 320,
+      "route": "/catalogue.html",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 320,
+      "route": "/policies.html",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 320,
+      "route": "/product/A01/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 320,
+      "route": "/product/E01/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 320,
+      "route": "/product/C01/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 320,
+      "route": "/product/Q01/",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 320,
+      "route": "/404.html",
+      "viewport": 320,
+      "scrollWidth": 320,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 360,
+      "route": "/",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 360,
+      "route": "/catalogue.html",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 360,
+      "route": "/policies.html",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 360,
+      "route": "/product/A01/",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 360,
+      "route": "/product/E01/",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 360,
+      "route": "/product/C01/",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 360,
+      "route": "/product/Q01/",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 360,
+      "route": "/404.html",
+      "viewport": 360,
+      "scrollWidth": 360,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 390,
+      "route": "/catalogue.html",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 390,
+      "route": "/policies.html",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 390,
+      "route": "/product/A01/",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 390,
+      "route": "/product/E01/",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 390,
+      "route": "/product/C01/",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 390,
+      "route": "/product/Q01/",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 390,
+      "route": "/404.html",
+      "viewport": 390,
+      "scrollWidth": 390,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 768,
+      "route": "/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 768,
+      "route": "/catalogue.html",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 768,
+      "route": "/policies.html",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 768,
+      "route": "/product/A01/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 768,
+      "route": "/product/E01/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 768,
+      "route": "/product/C01/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 768,
+      "route": "/product/Q01/",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 768,
+      "route": "/404.html",
+      "viewport": 768,
+      "scrollWidth": 768,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1024,
+      "route": "/",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1024,
+      "route": "/catalogue.html",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1024,
+      "route": "/policies.html",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1024,
+      "route": "/product/A01/",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1024,
+      "route": "/product/E01/",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1024,
+      "route": "/product/C01/",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1024,
+      "route": "/product/Q01/",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1024,
+      "route": "/404.html",
+      "viewport": 1024,
+      "scrollWidth": 1024,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        2,
+        3,
+        3,
+        3,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1440,
+      "route": "/catalogue.html",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1440,
+      "route": "/policies.html",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1440,
+      "route": "/product/A01/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1440,
+      "route": "/product/E01/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1440,
+      "route": "/product/C01/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1440,
+      "route": "/product/Q01/",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1,
+        2
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    },
+    {
+      "width": 1440,
+      "route": "/404.html",
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "overflowing": [],
+      "h1Count": 1,
+      "headings": [
+        1
+      ],
+      "unnamedImages": 0,
+      "unnamedControls": 0
+    }
+  ],
+  "accessibility": {
+    "focus": {
+      "checked": 30,
+      "order": [
+        {
+          "name": "Skip to collection",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "For the UmmahMEANING IN EVERY PIECE",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Menu",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Explore the collection",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "01 / SACRED ARCHITECTURE",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "All",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Eid 2027 / 1448 AH",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Sacred Architecture",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Calligraphy",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Qur’an Reflection",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "search",
+          "tag": "INPUT",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "View Moonlit Gathering details and design sheet",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Moonlit Gathering",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Ask about Moonlit Gathering on WhatsApp",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "View Eid Garden details and design sheet",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Eid Garden",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Ask about Eid Garden on WhatsApp",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "View Golden Celebration details and design sheet",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Golden Celebration",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Ask about Golden Celebration on WhatsApp",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "View Sweet Traditions details and design sheet",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Sweet Traditions",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Ask about Sweet Traditions on WhatsApp",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "View City of Light details and design sheet",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "City of Light",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Ask about City of Light on WhatsApp",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "View Kaaba Sharif details and design sheet",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Kaaba Sharif",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "Ask about Kaaba Sharif on WhatsApp",
+          "tag": "BUTTON",
+          "visible": true,
+          "indicator": true
+        },
+        {
+          "name": "View Masjid al-Haram details and design sheet",
+          "tag": "A",
+          "visible": true,
+          "indicator": true
+        }
+      ]
+    },
+    "liveRegions": {
+      "count": "polite",
+      "status": "status",
+      "errors": true,
+      "busy": "false"
+    },
+    "reducedMotion": {
+      "matches": true,
+      "smoothScroll": "auto",
+      "maxTransitionMs": 0.01
+    },
+    "zoom200": {
+      "scale": 2,
+      "viewportWidth": 320,
+      "documentWidth": 640,
+      "layoutWidth": 640
+    },
+    "touchTargets": {
+      ".menu-toggle": [
+        {
+          "width": 66,
+          "height": 44
+        }
+      ],
+      ".filters button": [
+        {
+          "width": 42,
+          "height": 44
+        },
+        {
+          "width": 147,
+          "height": 44
+        },
+        {
+          "width": 153,
+          "height": 44
+        },
+        {
+          "width": 98,
+          "height": 44
+        },
+        {
+          "width": 137,
+          "height": 44
+        }
+      ],
+      ".card-button": [
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        },
+        {
+          "width": 246,
+          "height": 46
+        }
+      ],
+      "#retry-catalogue": [],
+      "#reset-filters": [],
+      ".close": [],
+      ".submit-button": []
+    }
+  },
+  "interactions": {
+    "mobileMenu": "pass",
+    "dialog": {
+      "status": "pass",
+      "tabCycle": [
+        "quantity",
+        "frame",
+        "customer-name",
+        "customer-phone",
+        "area",
+        "note",
+        "BUTTON",
+        "BODY",
+        "request",
+        "close",
+        "variant",
+        "quantity",
+        "frame",
+        "customer-name"
+      ]
+    }
+  },
+  "contrast": {
+    "body": 11.41,
+    ".intro": 6.29,
+    ".fine": 4.9,
+    ".eyebrow": 4.87,
+    ".button": 12.11,
+    ".concept-note": 5.71,
+    ".field-error": 6.89
+  },
+  "errors": []
+}
