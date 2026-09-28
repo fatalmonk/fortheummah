@@ -112,14 +112,6 @@
   search.value = params.get('q') || '';
   for (const link of filters.querySelectorAll('.filter-link')) { if (link.textContent !== category) link.removeAttribute('aria-current'); }
   search.addEventListener('input', render);
-  for (const card of grid.querySelectorAll('.static-card')) {
-    const productId = card.dataset.productId;
-    const link = card.querySelector('.card-link');
-    link.addEventListener('click', (event) => {
-      const product = products.find((item) => item.id === productId);
-      if (product) { event.preventDefault(); openEnquiry(product, link); }
-    });
-  }
   document.querySelector('#reset-filters').addEventListener('click', () => {
     category = 'All';
     search.value = '';
@@ -192,6 +184,14 @@
         throw new Error('Invalid catalogue data.');
       }
       products = data;
+      for (const card of grid.querySelectorAll('.static-card')) {
+        const productId = card.dataset.productId;
+        const link = card.querySelector('.card-link');
+        link.addEventListener('click', (event) => {
+          const product = products.find((item) => item.id === productId);
+          if (product) { event.preventDefault(); openEnquiry(product, link); }
+        });
+      }
       for (const name of ['All', ...new Set(products.map((product) => product.category))]) {
         const button = document.createElement('button');
         button.type = 'button';
