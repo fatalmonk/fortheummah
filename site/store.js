@@ -35,6 +35,7 @@
   const retry = document.querySelector('#retry-catalogue');
   const count = document.querySelector('#count');
   const empty = document.querySelector('#empty');
+  const backToTop = document.querySelector('.back-to-top');
   const dialog = document.querySelector('#request');
   const form = document.querySelector('#request-form');
   const fallback = document.querySelector('#wa-fallback');
@@ -48,14 +49,21 @@
     note: document.querySelector('#note'),
   };
   let products = [];
-  let category = 'All';
+  const params = new URLSearchParams(window.location.search);
+  const allowedCategories = ['All', 'Eid 2027 / 1448 AH', 'Sacred Architecture', 'Calligraphy', 'Qur’an Reflection'];
+  let category = allowedCategories.includes(params.get('category')) ? params.get('category') : 'All';
   let selected = null;
   let lastTrigger = null;
   let requestedProductOpened = false;
 
   function syncFilters() {
-    for (const button of filters.children) {
+    for (const button of filters.querySelectorAll('button')) {
       button.setAttribute('aria-pressed', String(button.textContent === category));
+    }
+    for (const link of filters.querySelectorAll('.filter-link')) {
+      const active = link.textContent === category;
+      if (active) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
     }
   }
 
@@ -65,64 +73,18 @@
       (category === 'All' || product.category === category) &&
       `${product.title} ${product.id} ${product.category}`.toLocaleLowerCase().includes(query),
     );
-    const fragment = document.createDocumentFragment();
-    for (const product of matches) {
-      const card = document.createElement('article');
-      card.className = 'card';
-      const preview = document.createElement('a');
-      preview.className = 'card-image';
-      preview.href = `/product/${encodeURIComponent(product.id)}/`;
-      preview.setAttribute('aria-label', `View ${product.title} details and design sheet`);
-      const picture = document.createElement('img');
-      picture.src = product.image.thumbnail;
-      picture.alt = `${product.title} three-panel puzzle design sheet`;
-      picture.width = 720;
-      picture.height = 360;
-      picture.loading = 'lazy';
-      picture.decoding = 'async';
-      preview.append(picture);
-      const details = document.createElement('div');
-      details.className = 'details';
-      const label = document.createElement('p');
-      label.className = 'category';
-      label.textContent = `${product.category} · ${product.id}`;
-      const title = document.createElement('h3');
-      const titleLink = document.createElement('a');
-      titleLink.href = preview.href;
-      titleLink.textContent = product.title;
-      title.append(titleLink);
-      const row = document.createElement('div');
-      row.className = 'row';
-      const price = document.createElement('div');
-      price.className = 'price';
-      const options = document.createElement('div');
-      options.className = 'price-options';
-      for (const [pieces, amount] of [['500 pieces', '৳3,000'], ['1,000 pieces', '৳4,000']]) {
-        const option = document.createElement('span');
-        option.className = 'price-option';
-        option.textContent = pieces;
-        const value = document.createElement('strong');
-        value.textContent = amount;
-        option.append(value);
-        options.append(option);
-      }
-      const note = document.createElement('small');
-      note.textContent = 'Optional frame kit +৳3,000';
-      price.append(options, note);
-      const button = document.createElement('button');
-      button.type = 'button';
-      button.className = 'button card-button';
-      button.dataset.productId = product.id;
-      button.textContent = 'Ask about this design';
-      button.setAttribute('aria-label', `Ask about ${product.title} on WhatsApp`);
-      button.addEventListener('click', () => openEnquiry(product, button));
-      row.append(price, button);
-      details.append(label, title, row);
-      card.append(preview, details);
-      fragment.append(card);
+    const url = new URL(window.location.href);
+    if (category === 'All') url.searchParams.delete('category'); else url.searchParams.set('category', category);
+    if (search.value.trim()) url.searchParams.set('q', search.value.trim()); else url.searchParams.delete('q');
+    if (params.has('product')) url.searchParams.set('product', params.get('product'));
+    window.history.replaceState(null, '', `${url.pathname}${url.search}${url.hash}`);
+    const visibleIds = new Set(matches.map((product) => product.id));
+    for (const card of grid.querySelectorAll('.static-card')) {
+      card.hidden = !visibleIds.has(card.dataset.productId) || !(card.dataset.search || '').toLocaleLowerCase().includes(query);
     }
-    grid.replaceChildren(fragment);
-    count.textContent = `${matches.length} ${matches.length === 1 ? 'design' : 'designs'}`;
+    syncFilters();
+    
+    count.textContent = `Showing ${matches.length} ${matches.length === 1 ? 'design' : 'designs'}`;
     empty.hidden = matches.length !== 0;
   }
 
@@ -147,7 +109,17 @@
     fields.variant.focus({preventScroll: true});
     dialog.scrollTop = 0;
   }
+  search.value = params.get('q') || '';
+  for (const link of filters.querySelectorAll('.filter-link')) { if (link.textContent !== category) link.removeAttribute('aria-current'); }
   search.addEventListener('input', render);
+  for (const card of grid.querySelectorAll('.static-card')) {
+    const productId = card.dataset.productId;
+    const link = card.querySelector('.card-link');
+    link.addEventListener('click', (event) => {
+      const product = products.find((item) => item.id === productId);
+      if (product) { event.preventDefault(); openEnquiry(product, link); }
+    });
+  }
   document.querySelector('#reset-filters').addEventListener('click', () => {
     category = 'All';
     search.value = '';
@@ -192,7 +164,7 @@
       quantity: Number.isInteger(quantity) && quantity >= 1 && quantity <= 99 ? '' : 'Enter a whole number from 1 to 99.',
       name: name && name.length <= 100 ? '' : 'Enter your name (up to 100 characters).',
       phone: /^\+?[0-9][0-9 -]{7,18}$/.test(phone) ? '' : 'Enter a valid mobile number.',
-      area: area && area.length <= 300 ? '' : 'Enter your full delivery address (up to 300 characters).',
+      area: area.length <= 300 ? '' : 'Keep your area or district to 300 characters or fewer.',
       note: note.length <= 500 ? '' : 'Keep your note to 500 characters or fewer.',
     };
     for (const [key, message] of Object.entries(errors)) setError(key, message);
@@ -220,16 +192,16 @@
         throw new Error('Invalid catalogue data.');
       }
       products = data;
-      filters.replaceChildren();
       for (const name of ['All', ...new Set(products.map((product) => product.category))]) {
         const button = document.createElement('button');
         button.type = 'button';
         button.textContent = name;
         button.setAttribute('aria-pressed', String(name === category));
-        button.addEventListener('click', () => { category = name; syncFilters(); render(); });
+         button.addEventListener('click', () => { category = name; syncFilters(); render(); });
         filters.append(button);
       }
       controls.hidden = false;
+      search.value = new URLSearchParams(window.location.search).get('q') || '';
       render();
       status.hidden = true;
       const requestedId = new URLSearchParams(window.location.search).get('product');
@@ -247,5 +219,12 @@
     }
   }
   retry.addEventListener('click', loadProducts);
+  let scrollMilestones = 0;
+  window.addEventListener('scroll', () => {
+    const next = Math.floor(window.scrollY / Math.max(window.innerHeight, 1));
+    scrollMilestones = Math.max(scrollMilestones, next);
+    backToTop.hidden = scrollMilestones < 3;
+  }, {passive: true});
+  backToTop.addEventListener('click', () => window.scrollTo({top: 0, behavior: 'smooth'}));
   loadProducts();
 })();
